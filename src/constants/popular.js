@@ -1,4 +1,4 @@
-import cofee from "../images/popular/cofee.svg";
+import cofee from "../images/popular/cofee.PNG";
 import ferrerorocher from "../images/popular/ferrero-rocher.png";
 import icecream from "../images/popular/ice-cream.png";
 import shampoo from "../images/popular/shampoo.png";

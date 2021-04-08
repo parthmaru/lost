@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
 export const CatagoryImgStyle = styled.div`
-  width: 3rem;
-  height: 3rem;
-  padding: 1rem;
-  border-radius: 50%;
-  background-image: linear-gradient(white, whitesmoke);
-  box-shadow: 1px 1px 3px lightgray;
+  width: 4rem;
+  height: 4rem;
+  /* padding: 1rem; */
+  /* border-radius: 50%; */
+  /* background-image: linear-gradient(white, whitesmoke); */
+  /* box-shadow: 0px 0px 1px black; */
   cursor: pointer;
 
-  &:hover img {
-    scale: 1.15;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
   }
 `;
 

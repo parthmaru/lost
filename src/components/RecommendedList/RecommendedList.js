@@ -1,13 +1,19 @@
 import React from "react";
 import { recommended } from "../../constants/recommended";
 import Recommended from "../Recommended/Recommended";
-import { RecommendedListContainerStyle, RecommendedListStyle } from "./Styles";
+import {
+  RecommendedListContainerStyle,
+  RecommendedListStyle,
+  RecommendedListTitleStyle,
+} from "./Styles";
 
 const RecommendedList = () => {
   return (
     <>
-      <h1>Most Recommended product from lost</h1>
-      <hr />
+      <RecommendedListTitleStyle>
+        <h1>Most Recommended product from lost</h1>
+        <hr />
+      </RecommendedListTitleStyle>
       <RecommendedListContainerStyle>
         <RecommendedListStyle>
           {recommended.map((item) => (

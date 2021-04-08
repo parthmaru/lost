@@ -8,8 +8,6 @@ export const StoryStyle = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 0.7rem;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 2rem;
   }
 `;

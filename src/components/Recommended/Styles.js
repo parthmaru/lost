@@ -5,9 +5,9 @@ export const RecommendedStyle = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 1.5rem;
+  margin: 0 1.2rem;
   cursor: pointer;
-  box-shadow: 1px 1px 15px gray;
+  box-shadow: 1px 1px 8px gray;
   border-radius: 0.7rem;
 `;
 
