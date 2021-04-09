@@ -1,8 +1,8 @@
-import rOne from "../images/rOne.jpg";
-import rTwo from "../images/rTwo.jpg";
-import rThree from "../images/rThree.jpg";
-import rFour from "../images/rFour.jpg";
-import rFive from "../images/rFive.jpg";
+import rOne from "../images/recommended/one.PNG";
+import rTwo from "../images/recommended/two.PNG";
+import rThree from "../images/recommended/three.PNG";
+import rFour from "../images/recommended/four.PNG";
+import rFive from "../images/recommended/five.PNG";
 
 export const recommended = [
   {

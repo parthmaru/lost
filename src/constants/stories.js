@@ -1,6 +1,6 @@
-import sOne from "../images/rOne.jpg";
-import sTwo from "../images/rTwo.jpg";
-import sThree from "../images/rThree.jpg";
+import sOne from "../images/recommended/one.PNG";
+import sTwo from "../images/recommended/two.PNG";
+import sThree from "../images/recommended/three.PNG";
 
 export const stories = [
   {
