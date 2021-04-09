@@ -1,6 +1,6 @@
-import bestSellerOne from "../images/bestSeller/best-seller-one.jpg";
+// import bestSellerOne from "../images/bestSeller/best-seller-one.jpg";
 import bestSellerTwo from "../images/bestSeller/best-seller-two.jpg";
-import bestSellerThree from "../images/bestSeller/best-seller-three.jpg";
+// import bestSellerThree from "../images/bestSeller/best-seller-three.jpg";
 
 export const bestSeller = [
   {

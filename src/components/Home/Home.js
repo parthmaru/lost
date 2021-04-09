@@ -6,6 +6,7 @@ import PopularList from "../PopularList/PopularList";
 import RecommendedList from "../RecommendedList/RecommendedList";
 import StoriesList from "../StoriesList/StoriesList";
 import Carousal from "../Carousal/Carousal";
+// import Scroll from "../Scroll/Scroll";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <PopularList />
       <BestSellersList />
       <StoriesList />
+      {/* <Scroll /> */}
     </>
   );
 };

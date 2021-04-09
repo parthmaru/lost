@@ -6,7 +6,6 @@ import {
   RecommendedListStyle,
   RecommendedListTitleStyle,
 } from "./Styles";
-
 const RecommendedList = () => {
   return (
     <>
@@ -20,6 +19,7 @@ const RecommendedList = () => {
             <Recommended key={item.id} r_name={item.name} r_img={item.image} />
           ))}
         </RecommendedListStyle>
+
         <i
           className="fas fa-arrow-circle-right fa-lg"
           style={{ color: "gray" }}

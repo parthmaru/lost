@@ -1,11 +1,11 @@
-import groceries from "../images/groceries.svg";
-import vegetables from "../images/vegetables.svg";
-import dairyproducts from "../images/dairy-products.svg";
-import fish from "../images/fish.svg";
-import fastfood from "../images/fast-food.svg";
-import essential from "../images/essential-oil.svg";
-import shop from "../images/shop.svg";
-import abc from "../images/abc.PNG";
+// import groceries from "../images/groceries.svg";
+// import vegetables from "../images/vegetables.svg";
+// import dairyproducts from "../images/dairy-products.svg";
+// import fish from "../images/fish.svg";
+// import fastfood from "../images/fast-food.svg";
+// import essential from "../images/essential-oil.svg";
+// import shop from "../images/shop.svg";
+// import abc from "../images/abc.PNG";
 
 export const catagories = [
   {
