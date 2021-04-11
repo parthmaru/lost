@@ -30,4 +30,29 @@ export const recommended = [
     name: "Food Five",
     image: rFive,
   },
+  {
+    id: 6,
+    name: "Food One",
+    image: rOne,
+  },
+  {
+    id: 7,
+    name: "Food Two",
+    image: rTwo,
+  },
+  {
+    id: 8,
+    name: "Food Three",
+    image: rThree,
+  },
+  {
+    id: 9,
+    name: "Food Four",
+    image: rFour,
+  },
+  {
+    id: 10,
+    name: "Food Five",
+    image: rFive,
+  },
 ];

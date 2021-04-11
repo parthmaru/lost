@@ -12,6 +12,7 @@ export const RecommendedListStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  overflow: hidden;
 `;
 
 export const RecommendedListTitleStyle = styled.div`

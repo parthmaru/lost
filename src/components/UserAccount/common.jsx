@@ -65,7 +65,7 @@ export const SubmitButton = styled.button`
   cursor: pointer;
   transition: all, 240ms ease-in-out;
   background: rgb(42, 157, 143);
-  background: linear-gradient(58deg, #1363ad 20%, #3ea2ff 100%);
+  background: linear-gradient(58deg, black 20%, #262626 100%);
 
   &:hover {
     filter: brightness(1.03);

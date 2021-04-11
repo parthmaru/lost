@@ -15,10 +15,10 @@ const StoriesList = () => {
         {stories.map((item) => (
           <Story key={item.id} s_image={item.image} />
         ))}
-        <i
+        {/* <i
           className="fas fa-arrow-circle-right fa-lg"
           style={{ color: "gray" }}
-        ></i>
+        ></i> */}
       </StoriesListStyle>
     </StoriesListContainerStyle>
   );

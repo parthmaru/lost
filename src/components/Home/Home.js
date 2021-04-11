@@ -6,7 +6,8 @@ import PopularList from "../PopularList/PopularList";
 import RecommendedList from "../RecommendedList/RecommendedList";
 import StoriesList from "../StoriesList/StoriesList";
 import Carousal from "../Carousal/Carousal";
-// import Scroll from "../Scroll/Scroll";
+// import Footer from "../Footer/Footer";
+import Fonsi from "../Fonsi/Fonsi";
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
       <PopularList />
       <BestSellersList />
       <StoriesList />
-      {/* <Scroll /> */}
+      {/* <Footer /> */}
+      <Fonsi />
     </>
   );
 };

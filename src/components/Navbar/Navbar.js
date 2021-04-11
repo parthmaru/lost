@@ -3,6 +3,7 @@ import Searchbar from "../Searchbar/Searchbar";
 import NavIcons from "../NavIcons/NavIcons";
 import { NavStyle, NavIconStyle } from "./Styles";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const variants = {
@@ -30,7 +31,9 @@ const Navbar = () => {
         <NavIcons iconName="fas fa-map-marker-alt" />
         <NavIcons iconName="fas fa-cart-plus" />
         <NavIcons iconName="fas fa-bell" />
-        <NavIcons iconName="fas fa-user" />
+        <Link to="/account">
+          <NavIcons iconName="fas fa-user" />
+        </Link>
       </NavIconStyle>
     </NavStyle>
   );

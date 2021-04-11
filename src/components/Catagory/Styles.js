@@ -24,4 +24,6 @@ export const CatagoryStyle = styled.div`
   align-items: center;
   text-transform: uppercase;
   font-size: 0.9rem;
+  /* margin-left: -5rem;
+  margin-right: -5rem; */
 `;
