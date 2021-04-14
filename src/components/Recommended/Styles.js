@@ -9,6 +9,7 @@ export const RecommendedStyle = styled.div`
   cursor: pointer;
   box-shadow: 1px 1px 8px gray;
   border-radius: 0.7rem;
+  background-color: white;
 `;
 
 export const RecommendedImgStyle = styled.div`
@@ -26,19 +27,5 @@ export const RecommendedImgStyle = styled.div`
 
   &:hover {
     filter: brightness(50%);
-  }
-
-  h3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    opacity: 0;
-    transition: all 0.5s ease;
-  }
-
-  &:hover h3 {
-    opacity: 1;
   }
 `;

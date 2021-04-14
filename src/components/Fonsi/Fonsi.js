@@ -3,7 +3,7 @@ import { FonsiStyle } from "./Styles";
 
 const Fonsi = () => {
   return (
-    <>
+    <FonsiStyle>
       <div>
         <svg viewBox="0 0 1950.2 507">
           <defs>
@@ -38,7 +38,7 @@ const Fonsi = () => {
           </g>
         </svg>
       </div>
-    </>
+    </FonsiStyle>
   );
 };
 

@@ -8,6 +8,11 @@ export const CatagoryImgStyle = styled.div`
   /* background-image: linear-gradient(white, whitesmoke); */
   /* box-shadow: 0px 0px 1px black; */
   cursor: pointer;
+  background-color: white;
+
+  .link {
+    background-color: white;
+  }
 
   img {
     height: 100%;
@@ -24,6 +29,12 @@ export const CatagoryStyle = styled.div`
   align-items: center;
   text-transform: uppercase;
   font-size: 0.9rem;
+  background-color: white;
+
+  p {
+    background-color: white;
+  }
+
   /* margin-left: -5rem;
   margin-right: -5rem; */
 `;

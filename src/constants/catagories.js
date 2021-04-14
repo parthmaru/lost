@@ -42,4 +42,9 @@ export const catagories = [
     name: "Any Store",
     image: shop,
   },
+  {
+    id: 8,
+    name: "More",
+    image: fastfood,
+  },
 ];

@@ -16,6 +16,6 @@ export const RecommendedListStyle = styled.div`
 `;
 
 export const RecommendedListTitleStyle = styled.div`
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 `;

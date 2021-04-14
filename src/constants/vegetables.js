@@ -1,0 +1,118 @@
+import tomato from "../images/vegetables/tomato.jpg";
+import potato from "../images/vegetables/potato.jpg";
+import onion from "../images/vegetables/onion.jpg";
+
+export const vegetables = [
+  {
+    id: 1,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 2,
+    name: "Potato",
+    image: potato,
+    price: "150",
+    quantity: "5kg",
+  },
+  {
+    id: 3,
+    name: "Onion",
+    image: onion,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 4,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 5,
+    name: "Potato",
+    image: potato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 6,
+    name: "Onion",
+    image: onion,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 7,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 8,
+    name: "Potato",
+    image: potato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 9,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 10,
+    name: "Potato",
+    image: potato,
+    price: "150",
+    quantity: "5kg",
+  },
+  {
+    id: 11,
+    name: "Onion",
+    image: onion,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 12,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 13,
+    name: "Potato",
+    image: potato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 14,
+    name: "Onion",
+    image: onion,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 15,
+    name: "Tomato",
+    image: tomato,
+    price: "20",
+    quantity: "1kg",
+  },
+  {
+    id: 16,
+    name: "Potato",
+    image: potato,
+    price: "20",
+    quantity: "1kg",
+  },
+];

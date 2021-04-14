@@ -7,17 +7,32 @@ export const BestSellerContainerStyle = styled.div`
   margin: 1rem;
   background-color: whitesmoke;
   font-family: "Dancing Script", cursive;
+  background-color: white;
 `;
 
 export const BestSellerStyle = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
+
+  div {
+    background-color: white;
+
+    h1 {
+      background-color: white;
+    }
+
+    p {
+      background-color: white;
+    }
+  }
 `;
 
 export const BestSellerImgStyle = styled.div`
   height: 30vh;
   width: 35vw;
+  background-color: white;
 
   img {
     height: 100%;

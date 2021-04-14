@@ -6,9 +6,9 @@ export const StoriesListContainerStyle = styled.div`
   align-items: center;
   font-family: "Dancing Script", cursive;
   padding: 1rem;
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 `;
 
 export const StoriesListStyle = styled.div`

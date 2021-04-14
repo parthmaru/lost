@@ -6,7 +6,7 @@ const Catagory = ({ catagory_name, catagory_img }) => {
   return (
     <CatagoryStyle>
       <CatagoryImgStyle>
-        <Link to="/products">
+        <Link to="/products" className="link">
           <img src={catagory_img} alt="cat_cover" />
         </Link>
       </CatagoryImgStyle>

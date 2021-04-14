@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BestSellersListStyle = styled.div`
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 `;

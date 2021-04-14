@@ -5,11 +5,19 @@ export const PopularContainerStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.7rem;
+
+  p {
+    background-color: white;
+  }
 `;
 
 export const PopularImgStyle = styled.div`
   height: 15vh;
   width: 7vw;
+  background-color: white;
 
   img {
     width: 100%;

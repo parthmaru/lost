@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Popular = ({ p_name, p_img }) => {
   useEffect(() => {
-    Aos.init(1000);
+    Aos.init(500);
   }, []);
 
   return (

@@ -14,7 +14,7 @@ const BestSeller = ({
   b_img,
 }) => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1500 });
   }, []);
 
   return (
