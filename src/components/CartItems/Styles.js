@@ -15,6 +15,13 @@ export const Wrapper = styled.div`
   .buttons {
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+  }
+
+  .buttons {
+    /* background-color: #262626; */
+    /* color: white; */
+    border-radius: 5px;
   }
 
   img {

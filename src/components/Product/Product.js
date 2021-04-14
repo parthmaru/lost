@@ -6,6 +6,7 @@ import {
   ProductImageStyle,
   ProductPriceStyle,
 } from "./Styles";
+import Rating from "@material-ui/lab/Rating";
 
 const Product = ({ id, name, image, price, quantity, description }) => {
   const dispatch = useDispatch();
@@ -28,13 +29,26 @@ const Product = ({ id, name, image, price, quantity, description }) => {
         <img src={image} alt="productCatagory" style={{ height: 150 }} />
       </ProductImageStyle>
       <h4>{name}</h4>
+      {/* <Rating name="half-rating" defaultValue={2.5} precision={0.5} /> */}
+      <Rating
+        name="half-rating-read"
+        defaultValue={3.5}
+        precision={0.5}
+        readOnly
+      />
       {/* <p>{description}</p> */}
       <ProductPriceStyle>
         <p>₹{Math.floor(price)}</p>
-        <p style={{ textDecoration: "line-through", marginLeft: "15px" }}>
-          ₹{price}
+        <p
+          style={{
+            textDecoration: "line-through",
+            color: "gray",
+            marginLeft: "15px",
+          }}
+        >
+          ₹{Math.floor(price * 1.25)}
         </p>
-        <button onClick={handleAddProducts}>Add</button>
+        <button onClick={handleAddProducts}>ADD</button>
       </ProductPriceStyle>
     </ProductContainerStyle>
   );

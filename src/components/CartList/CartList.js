@@ -1,5 +1,6 @@
+import { Button } from "@material-ui/core";
 import CartItems from "../CartItems/CartItems";
-import { Wrapper } from "./Styles";
+import { CartTotalOrderStyle, Wrapper } from "./Styles";
 
 const CartList = ({ cartItems, addToCart, removeFromCart }) => {
   const calculateTotal = (items) => {
@@ -8,7 +9,7 @@ const CartList = ({ cartItems, addToCart, removeFromCart }) => {
 
   return (
     <Wrapper>
-      <div>Your Shopping Cart</div>
+      <h1>Your Shopping Cart</h1>
       {cartItems.length === 0 ? (
         <p>No items in cart.</p>
       ) : (
@@ -21,8 +22,12 @@ const CartList = ({ cartItems, addToCart, removeFromCart }) => {
           />
         ))
       )}
-      <h2>Total: ₹{calculateTotal(cartItems).toFixed(2)}</h2>
-      {/* <h2>Total:2000</h2> */}
+      <CartTotalOrderStyle>
+        <h2>Total: ₹{calculateTotal(cartItems).toFixed(2)}</h2>
+        <Button size="large" color="primary" variant="contained">
+          Place Order
+        </Button>
+      </CartTotalOrderStyle>
     </Wrapper>
   );
 };

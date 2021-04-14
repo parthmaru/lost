@@ -6,6 +6,8 @@ export const NavStyle = styled.div`
   justify-content: space-around;
   /* margin-bottom: 1rem; */
   background-color: white;
+  /* box-shadow: 1px 15px 25px whitesmoke; */
+  /* margin-bottom: 0.5rem; */
 
   h1 {
     font-family: "Train One", cursive;

@@ -21,7 +21,7 @@ export const ProductContainerStyle = styled.div`
   border: 1px solid lightgray;
   border-radius: 10px;
   width: 20vw;
-  height: 50vh;
+  height: auto;
   background-color: white;
 
   /* h4 {
@@ -39,5 +39,14 @@ export const ProductPriceStyle = styled.div`
     padding: 0.1rem;
     margin-left: 1rem;
     cursor: pointer;
+    background-color: #262626;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+
+    &:hover {
+      background-color: #505050;
+    }
   }
 `;

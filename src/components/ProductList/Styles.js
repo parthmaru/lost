@@ -4,7 +4,7 @@ export const ProductListStyles = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 3rem 0 3rem;
+  margin: 1rem 3rem -1rem 3rem;
   /* border: 1px solid red; */
 
   select {
@@ -37,4 +37,14 @@ export const ProductListButtonStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  button {
+    background-color: #262626;
+    color: white;
+    padding: 0.7rem 3rem;
+    outline: none;
+    border: none;
+    margin: -2rem 1rem 1rem 1rem;
+    font-size: 1rem;
+  }
 `;

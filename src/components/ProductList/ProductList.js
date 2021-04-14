@@ -45,18 +45,17 @@ const ProductList = () => {
   return (
     <>
       <ProductListStyles>
-        {/* <ProductFilterStyle> */}
         <div>
           <select
             name="catagory"
-            defaultValue="select catagory"
+            defaultValue="all"
             onClick={(e) => setSelectedCatagory(e.currentTarget.value)}
           >
-            <option value="select catagory">all</option>
-            <option value="men clothing">men clothing</option>
-            <option value="jewelery">jewelery</option>
-            <option value="electronics">electronics</option>
-            <option value="women clothing">women clothing</option>
+            <option value="all">All</option>
+            <option value="men clothing">Men Clothing</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="electronics">Electronics</option>
+            <option value="women clothing">Women Clothing</option>
           </select>
         </div>
         <div>
@@ -69,7 +68,6 @@ const ProductList = () => {
             <i className="fas fa-sort" style={{ marginLeft: "10px" }}></i>
           </button>
         </div>
-        {/* </ProductFilterStyle> */}
       </ProductListStyles>
       <ProductCatagoryStyle>
         {isLoading ? (

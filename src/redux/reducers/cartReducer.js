@@ -22,20 +22,19 @@ export const cartReducer = (state = initialState, action) => {
         ...state,
         products: [...state.products, { ...action.payload, quantity: 1 }],
       };
+
     case REMOVE_PRODUCT_FROM_CART:
       const identity = action.payload;
-
       return {
         ...state,
-        products: state.products.map((item) => {
+        products: state.products.reduce((ack, item) => {
           if (item.id === identity) {
-            if (item.quantity === 1) {
-              return state.products.filter((item) => item.id !== identity);
-            }
-            return { ...item, quantity: item.quantity - 1 };
+            if (item.quantity === 1) return ack;
+            return [...ack, { ...item, quantity: item.quantity - 1 }];
+          } else {
+            return [...ack, item];
           }
-          return item;
-        }),
+        }, []),
       };
 
     default:

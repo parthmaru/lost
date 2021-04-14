@@ -49,15 +49,24 @@ const Navbar = () => {
       <Searchbar />
       <NavIconStyle>
         <LocationOnIcon
-          style={{ backgroundColor: "white", marginRight: "2.5rem" }}
+          style={{
+            backgroundColor: "white",
+            padding: "0 2rem",
+            borderRight: "1px solid black",
+          }}
         />
-        {/* <NavIcons iconName="fas fa-map-marker-alt" /> */}
+        <NotificationsIcon
+          style={{
+            backgroundColor: "white",
+            padding: "0 2rem",
+            borderRight: "1px solid black",
+          }}
+        />
         <Drawer
           anchor="right"
           open={cartOpen}
           onClose={() => setCartOpen(false)}
         >
-          <h1>Your Cart</h1>
           <CartList
             cartItems={products}
             addToCart={handleAddToCart}
@@ -70,24 +79,24 @@ const Navbar = () => {
           style={{
             cursor: "pointer",
             backgroundColor: "white",
-            marginRight: "2.5rem",
+            margin: "0 2rem",
+            // borderRight: "1px solid black",
           }}
           onClick={() => setCartOpen(true)}
         >
           <ShoppingCartIcon style={{ backgroundColor: "white" }} />
         </Bagde>
-        <NotificationsIcon
-          style={{ backgroundColor: "white", marginRight: "2.5rem" }}
-        />
-        {/* <NavIcons iconName="fas fa-bell" /> */}
         <Link
           to="/account"
           style={{ color: "black", backgroundColor: "white" }}
         >
           <PersonIcon
-            style={{ backgroundColor: "white", marginRight: "2.5rem" }}
+            style={{
+              backgroundColor: "white",
+              padding: "0 2rem",
+              borderLeft: "1px solid black",
+            }}
           />
-          {/* <NavIcons iconName="fas fa-user" /> */}
         </Link>
       </NavIconStyle>
     </NavStyle>
