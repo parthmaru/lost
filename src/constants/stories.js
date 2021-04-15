@@ -1,8 +1,9 @@
 // import sOne from "../images/recommended/one.PNG";
 // import sTwo from "../images/recommended/two.PNG";
-import sThree from "../images/recommended/three.PNG";
+// import sThree from "../images/recommended/three.PNG";
 import parth from "../images/parth.png";
 import vishw from "../images/vishw.jpg";
+import lili from "../images/lili.jpg";
 
 export const stories = [
   {
@@ -18,6 +19,6 @@ export const stories = [
   {
     id: 3,
     name: "Story Three",
-    image: sThree,
+    image: lili,
   },
 ];
