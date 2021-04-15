@@ -8,6 +8,7 @@ import {
 } from "./Styles";
 import Product from "../Product/Product";
 import { testData } from "../../constants/testData";
+import { CircularProgress } from "@material-ui/core";
 // import { ProductPriceStyle } from "../Product/Styles";
 
 const ProductList = () => {
@@ -71,8 +72,11 @@ const ProductList = () => {
       </ProductListStyles>
       <ProductCatagoryStyle>
         {isLoading ? (
-          <h1>Loading...</h1>
-        ) : error ? (
+          <CircularProgress
+            style={{ position: "absolute", top: "50%", left: "50%" }}
+          />
+        ) : // <LinearProgress />
+        error ? (
           <h1>Error...</h1>
         ) : filteredProducts.length ? (
           filteredProducts?.map((item) => (
@@ -100,10 +104,12 @@ const ProductList = () => {
           ))
         )}
       </ProductCatagoryStyle>
-      <ProductListButtonStyle>
-        <button>Prev</button>
-        <button>Next</button>
-      </ProductListButtonStyle>
+      {!isLoading ? (
+        <ProductListButtonStyle>
+          <button>Prev</button>
+          <button>Next</button>
+        </ProductListButtonStyle>
+      ) : null}
     </>
   );
 };
