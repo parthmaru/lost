@@ -1,21 +1,22 @@
+import { Button } from "@material-ui/core";
 import React, { Component } from "react";
 import ScrollMenu from "react-horizontal-scrolling-menu";
 import { recommended } from "../../constants/recommended";
 import Recommended from "../Recommended/Recommended";
 import { RecommendedListTitleStyle } from "./Styles";
 
-const MenuItem = ({ name, image }) => {
+const MenuItem = ({ name, image, price }) => {
   return (
     <div style={{ padding: "1rem 0" }}>
-      <Recommended r_name={name} r_img={image} />
+      <Recommended r_name={name} r_img={image} r_price={price} />
     </div>
   );
 };
 
 export const Menu = (list) =>
   list.map((el) => {
-    const { id, name, image } = el;
-    return <MenuItem name={name} image={image} key={id} />;
+    const { id, name, image, price } = el;
+    return <MenuItem name={name} image={image} price={price} key={id} />;
   });
 const Arrow = (text) => {
   return (
@@ -50,8 +51,11 @@ class RecommendedList extends Component {
       <>
         <RecommendedListTitleStyle>
           <h1>Most Recommended product from lost</h1>
-          <hr />
+          <Button size="large" color="primary" variant="contained">
+            View All
+          </Button>
         </RecommendedListTitleStyle>
+        {/* <hr /> */}
         <ScrollMenu
           data={menu}
           arrowLeft={ArrowLeft}

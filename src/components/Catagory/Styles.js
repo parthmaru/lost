@@ -9,6 +9,7 @@ export const CatagoryImgStyle = styled.div`
   /* box-shadow: 0px 0px 1px black; */
   cursor: pointer;
   background-color: white;
+  margin-top: 15vh;
 
   .link {
     background-color: white;
@@ -17,8 +18,9 @@ export const CatagoryImgStyle = styled.div`
   img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    border-radius: 3rem;
+    object-fit: contain;
+    /* border: 1px solid lightgray; */
+    /* border-radius: 3rem; */
   }
 `;
 

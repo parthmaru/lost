@@ -12,6 +12,7 @@ import { addToCart, removeFromCart } from "../../redux/actions/cartActions";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import PersonIcon from "@material-ui/icons/Person";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 
 const Navbar = () => {
   const { products } = useSelector((state) => state.cartReducer);
@@ -56,6 +57,13 @@ const Navbar = () => {
           }}
         />
         <NotificationsIcon
+          style={{
+            backgroundColor: "white",
+            padding: "0 2rem",
+            borderRight: "1px solid black",
+          }}
+        />
+        <FavoriteIcon
           style={{
             backgroundColor: "white",
             padding: "0 2rem",

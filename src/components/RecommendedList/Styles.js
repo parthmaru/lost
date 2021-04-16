@@ -18,4 +18,8 @@ export const RecommendedListStyle = styled.div`
 export const RecommendedListTitleStyle = styled.div`
   margin-left: 2rem;
   margin-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 `;

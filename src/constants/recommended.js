@@ -1,58 +1,68 @@
-import rOne from "../images/recommended/one.PNG";
-import rTwo from "../images/recommended/two.PNG";
-import rThree from "../images/recommended/three.PNG";
-import rFour from "../images/recommended/four.PNG";
-import rFive from "../images/recommended/five.PNG";
+import rOne from "../images/recommended/headphones.jpg";
+import rTwo from "../images/recommended/shoe.jpg";
+import rThree from "../images/recommended/furniture.jpg";
+import rFour from "../images/recommended/refridgerator.jpg";
+import rFive from "../images/recommended/watches.jpg";
 
 export const recommended = [
   {
     id: 1,
-    name: "Food One",
+    name: "Headphones",
+    price: 700,
     image: rOne,
   },
   {
     id: 2,
-    name: "Food Two",
+    name: "Shoe",
+    price: 500,
     image: rTwo,
   },
   {
     id: 3,
-    name: "Food Three",
+    name: "Furniture",
+    price: 1200,
     image: rThree,
   },
   {
     id: 4,
-    name: "Food Four",
+    name: "Refridgerator",
+    price: 19000,
     image: rFour,
   },
   {
     id: 5,
-    name: "Food Five",
+    name: "Watches",
+    price: 900,
     image: rFive,
   },
   {
     id: 6,
-    name: "Food One",
+    name: "Headphones",
+    price: 700,
     image: rOne,
   },
   {
     id: 7,
-    name: "Food Two",
+    name: "Shoe",
+    price: 500,
     image: rTwo,
   },
   {
     id: 8,
-    name: "Food Three",
+    name: "Furniture",
+    price: 1200,
     image: rThree,
   },
   {
     id: 9,
-    name: "Food Four",
+    name: "Refridgerator",
+    price: 19000,
     image: rFour,
   },
   {
     id: 10,
-    name: "Food Five",
+    name: "Watches",
+    price: 900,
     image: rFive,
   },
 ];

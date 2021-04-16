@@ -5,8 +5,15 @@ const Footer = () => {
   return (
     <>
       <Box>
-        <h1 style={{ color: "black", textAlign: "center" }}>
-          LOST - LOCAL STORE
+        <h1
+          style={{
+            color: "white",
+            textAlign: "center",
+            fontFamily: "Train One",
+            fontWeight: 100,
+          }}
+        >
+          LOST
         </h1>
         <Container>
           <Row>

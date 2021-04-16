@@ -8,6 +8,8 @@ export const PopularContainerStyle = styled.div`
   background-color: white;
   padding: 2rem;
   border-radius: 0.7rem;
+  text-align: center;
+  font-family: Arial;
 
   p {
     background-color: white;
@@ -15,8 +17,8 @@ export const PopularContainerStyle = styled.div`
 `;
 
 export const PopularImgStyle = styled.div`
-  height: 15vh;
-  width: 7vw;
+  height: 17vh;
+  width: 8vw;
   background-color: white;
 
   img {
@@ -33,5 +35,8 @@ export const PopularButtonStyle = styled.div`
     border: none;
     color: white;
     padding: 7px;
+    cursor: pointer;
   }
 `;
+
+export const PopularDetailStyle = styled.div``;

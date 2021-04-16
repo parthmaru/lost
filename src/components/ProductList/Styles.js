@@ -4,7 +4,8 @@ export const ProductListStyles = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 3rem -1rem 3rem;
+  margin: 16vh 3rem -1rem 3rem;
+  /* margin-top: 15vh; */
   /* border: 1px solid red; */
 
   select {

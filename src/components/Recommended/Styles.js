@@ -23,6 +23,7 @@ export const RecommendedImgStyle = styled.div`
     border-bottom-left-radius: 7rem;
     /* border-bottom-left-radius: 0; */
     border-bottom-right-radius: 0;
+    object-fit: cover;
   }
 
   &:hover {

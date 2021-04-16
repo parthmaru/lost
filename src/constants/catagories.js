@@ -1,10 +1,12 @@
-import groceries from "../images/catagories/grocerry.PNG";
-import vegetables from "../images/catagories/vegetable.PNG";
-import dairyproducts from "../images/catagories/dairy-product.PNG";
-import fish from "../images/catagories/fish-meat.PNG";
-import fastfood from "../images/catagories/food.PNG";
-import essential from "../images/catagories/essentials.PNG";
-import shop from "../images/catagories/any-store.PNG";
+import groceries from "../images/catagories/grocery.PNG";
+import mobiles from "../images/catagories/mobiles.PNG";
+import fashion from "../images/catagories/fashion.PNG";
+import electronics from "../images/catagories/electronics.PNG";
+import home from "../images/catagories/home.PNG";
+import appliances from "../images/catagories/appliances.PNG";
+import beauty from "../images/catagories/beauty.PNG";
+import sports from "../images/catagories/sports.PNG";
+import books from "../images/catagories/books.PNG";
 
 export const catagories = [
   {
@@ -14,37 +16,42 @@ export const catagories = [
   },
   {
     id: 2,
-    name: "Vegetables",
-    image: vegetables,
+    name: "Mobiles",
+    image: mobiles,
   },
   {
     id: 3,
-    name: "Dairy Products",
-    image: dairyproducts,
+    name: "Fashion",
+    image: fashion,
   },
   {
     id: 4,
-    name: "Fish & Meat",
-    image: fish,
+    name: "Electronics",
+    image: electronics,
   },
   {
     id: 5,
-    name: "Foods",
-    image: fastfood,
+    name: "Home",
+    image: home,
   },
   {
     id: 6,
-    name: "Essentials",
-    image: essential,
+    name: "Appliances",
+    image: appliances,
   },
   {
     id: 7,
-    name: "Any Store",
-    image: shop,
+    name: "Beauty",
+    image: beauty,
   },
   {
     id: 8,
-    name: "More",
-    image: fastfood,
+    name: "Sports",
+    image: sports,
+  },
+  {
+    id: 9,
+    name: "Books & More",
+    image: books,
   },
 ];
