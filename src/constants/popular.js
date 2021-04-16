@@ -9,7 +9,7 @@ import waffer from "../images/popular/waffer.png";
 export const popular = [
   {
     id: 21,
-    title: "Cofee",
+    name: "Cofee",
     image: cofee,
     price: 45,
     description:
@@ -19,7 +19,7 @@ export const popular = [
   },
   {
     id: 22,
-    title: "Ferrero Rocher",
+    name: "Ferrero Rocher",
     image: ferrerorocher,
     description:
       "Ferrero Rocher, the golden experience in a box of 24 premium pralines",
@@ -29,7 +29,7 @@ export const popular = [
   },
   {
     id: 23,
-    title: "Ice Cream",
+    name: "Ice Cream",
     image: icecream,
     price: 140,
     description:
@@ -39,7 +39,7 @@ export const popular = [
   },
   {
     id: 24,
-    title: "WOW Shampoo",
+    name: "WOW Shampoo",
     image: shampoo,
     price: 390,
     description:
@@ -49,7 +49,7 @@ export const popular = [
   },
   {
     id: 25,
-    title: "Knorr Soup",
+    name: "Knorr Soup",
     image: soup,
     price: 30,
     description:
@@ -59,7 +59,7 @@ export const popular = [
   },
   {
     id: 26,
-    title: "Trimmer",
+    name: "Trimmer",
     image: trimmer,
     discount: 50,
     price: 700,
@@ -69,7 +69,7 @@ export const popular = [
   },
   {
     id: 27,
-    title: "Waffer",
+    name: "Waffer",
     image: waffer,
     price: 10,
     description: "Sizzling Barbeque Flavour, 30g Pouch",

@@ -8,7 +8,7 @@ import {
 } from "./Styles";
 import Rating from "@material-ui/lab/Rating";
 
-const Product = ({ id, name, image, price, quantity, description }) => {
+const Product = ({ id, name, image, price, description }) => {
   const dispatch = useDispatch();
 
   const handleAddProducts = () => {

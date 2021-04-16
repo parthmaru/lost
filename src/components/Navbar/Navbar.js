@@ -42,11 +42,17 @@ const Navbar = () => {
     dispatch(removeFromCart(id));
   };
 
+  const handleDrawer = () => {
+    setCartOpen(false);
+  };
+
   return (
     <NavStyle>
-      <motion.h1 variants={variants} initial="hidden" animate="visible">
-        LOST
-      </motion.h1>
+      <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <motion.h1 variants={variants} initial="hidden" animate="visible">
+          LOST
+        </motion.h1>
+      </Link>
       <Searchbar />
       <NavIconStyle>
         <LocationOnIcon
@@ -79,6 +85,7 @@ const Navbar = () => {
             cartItems={products}
             addToCart={handleAddToCart}
             removeFromCart={handleRemoveFromCart}
+            handleDrawer={handleDrawer}
           />
         </Drawer>
         <Bagde

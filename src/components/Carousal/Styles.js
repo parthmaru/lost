@@ -9,6 +9,7 @@ export const CarousalContainerStyle = styled.div`
   /* margin-left: 5rem; */
   /* margin-right: 5rem; */
   overflow: hidden;
+  width: 100%;
 
   .next,
   .prev {
