@@ -11,4 +11,9 @@ export const StoryStyle = styled.div`
     border-radius: 2rem;
     object-fit: cover;
   }
+
+  @media (max-width: 400px) {
+    width: 90vw;
+    margin: 0 1rem;
+  }
 `;

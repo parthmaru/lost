@@ -35,7 +35,7 @@ const Popular = ({ p_id, p_name, p_img, p_discount, p_category, p_price }) => {
           <img src={p_img} alt="popuar" />
         </PopularImgStyle>
         <PopularDetailStyle>
-          <p style={{ fontSize: "1rem", fontFamily: "Open Sans" }}>{p_name}</p>
+          <p style={{ fontSize: ".8rem", fontFamily: "Open Sans" }}>{p_name}</p>
           <p style={{ fontSize: ".8rem", color: "green", fontWeight: 100 }}>
             Upto {p_discount}% Off
           </p>

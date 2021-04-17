@@ -6,4 +6,8 @@ export const SearchInputStyle = styled.div`
   border-radius: 15px;
   box-shadow: 3px 3px 3px 1px lightgray;
   cursor: pointer;
+
+  @media (max-width: 400px) {
+    display: none;
+  }
 `;

@@ -5,9 +5,6 @@ export const CarousalContainerStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 2rem; */
-  /* margin-left: 5rem; */
-  /* margin-right: 5rem; */
   overflow: hidden;
   width: 100%;
 

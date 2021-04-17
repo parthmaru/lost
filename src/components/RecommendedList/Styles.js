@@ -22,4 +22,17 @@ export const RecommendedListTitleStyle = styled.div`
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
+
+  @media (max-width: 400px) {
+    justify-content: center;
+    margin: 0;
+
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    > .viewAllButton {
+      display: none;
+    }
+  }
 `;

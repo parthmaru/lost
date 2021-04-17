@@ -10,12 +10,24 @@ export const PopularListContainerStyle = styled.div`
   -webkit-box-shadow: 1px 5px 7px 0px rgba(194, 194, 194, 0.73);
   -moz-box-shadow: 1px 5px 7px 0px rgba(194, 194, 194, 0.73);
   padding: 0 1rem;
+
+  @media (max-width: 400px) {
+    padding: 0;
+    font-size: 0.7rem;
+    width: 100%;
+    margin: 0;
+  }
 `;
 
 export const PopularListStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media (max-width: 400px) {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
 `;
 
 export const PopularTopStyle = styled.div`
@@ -27,6 +39,18 @@ export const PopularTopStyle = styled.div`
 
   h1 {
     margin: 0;
-    padding-top: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    h1 {
+      padding: 0.1rem;
+    }
+
+    padding: 0.3rem;
+    justify-content: center;
+
+    > .viewAllButton {
+      display: none;
+    }
   }
 `;

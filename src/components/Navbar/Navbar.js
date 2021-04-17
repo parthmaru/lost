@@ -55,27 +55,9 @@ const Navbar = () => {
       </Link>
       <Searchbar />
       <NavIconStyle>
-        <LocationOnIcon
-          style={{
-            backgroundColor: "white",
-            padding: "0 2rem",
-            borderRight: "1px solid black",
-          }}
-        />
-        <NotificationsIcon
-          style={{
-            backgroundColor: "white",
-            padding: "0 2rem",
-            borderRight: "1px solid black",
-          }}
-        />
-        <FavoriteIcon
-          style={{
-            backgroundColor: "white",
-            padding: "0 2rem",
-            borderRight: "1px solid black",
-          }}
-        />
+        <LocationOnIcon className="navIcon" />
+        <NotificationsIcon className="navIcon" />
+        <FavoriteIcon className="navIcon" />
         <Drawer
           anchor="right"
           open={cartOpen}
@@ -89,14 +71,9 @@ const Navbar = () => {
           />
         </Drawer>
         <Bagde
+          className="navIconBadge"
           badgeContent={products.length}
           color="error"
-          style={{
-            cursor: "pointer",
-            backgroundColor: "white",
-            margin: "0 2rem",
-            // borderRight: "1px solid black",
-          }}
           onClick={() => setCartOpen(true)}
         >
           <ShoppingCartIcon style={{ backgroundColor: "white" }} />
@@ -105,13 +82,7 @@ const Navbar = () => {
           to="/account"
           style={{ color: "black", backgroundColor: "white" }}
         >
-          <PersonIcon
-            style={{
-              backgroundColor: "white",
-              padding: "0 2rem",
-              borderLeft: "1px solid black",
-            }}
-          />
+          <PersonIcon className="navIconPerson" />
         </Link>
       </NavIconStyle>
     </NavStyle>

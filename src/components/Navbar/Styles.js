@@ -4,10 +4,7 @@ export const NavStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* margin-bottom: 1rem; */
   background-color: white;
-  /* box-shadow: 1px 15px 25px whitesmoke; */
-  /* margin-bottom: 0.5rem; */
   position: fixed;
   top: 0;
   z-index: 1000 !important;
@@ -23,4 +20,28 @@ export const NavIconStyle = styled.div`
   display: flex;
   align-items: center;
   background-color: white;
+
+  > .navIcon {
+    background-color: white;
+    padding: 0 2rem;
+    border-right: 1px solid black;
+  }
+
+  > .navIconBadge {
+    cursor: pointer;
+    background-color: white;
+    margin: 0 2rem;
+  }
+
+  > .navIconPerson {
+    background-color: white;
+    padding: 0 2rem;
+    border-left: 1px solid black;
+  }
+
+  @media (max-width: 400px) {
+    > .navIcon {
+      display: none;
+    }
+  }
 `;

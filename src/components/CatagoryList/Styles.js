@@ -5,4 +5,10 @@ export const CatagoryListStyle = styled.div`
   align-items: center;
   justify-content: space-around;
   background-color: white;
+
+  @media (max-width: 400px) {
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
 `;

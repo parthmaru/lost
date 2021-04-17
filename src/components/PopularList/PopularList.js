@@ -13,7 +13,12 @@ const PopularList = () => {
     <PopularListContainerStyle>
       <PopularTopStyle>
         <h1>Popular List</h1>
-        <Button size="large" color="primary" variant="contained">
+        <Button
+          size="large"
+          color="primary"
+          variant="contained"
+          className="viewAllButton"
+        >
           View All
         </Button>
       </PopularTopStyle>

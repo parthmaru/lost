@@ -26,6 +26,10 @@ export const RecommendedImgStyle = styled.div`
     object-fit: cover;
   }
 
+  @media (max-width: 400px) {
+    width: fit-content;
+  }
+
   &:hover {
     filter: brightness(50%);
   }

@@ -8,6 +8,10 @@ export const BestSellerContainerStyle = styled.div`
   background-color: whitesmoke;
   font-family: "Dancing Script", cursive;
   background-color: white;
+
+  @media (max-width: 400px) {
+    margin: 0;
+  }
 `;
 
 export const BestSellerStyle = styled.div`
@@ -27,6 +31,20 @@ export const BestSellerStyle = styled.div`
       background-color: white;
     }
   }
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+
+    div {
+      text-align: center;
+
+      h1 {
+        margin: 0;
+      }
+    }
+  }
 `;
 
 export const BestSellerImgStyle = styled.div`
@@ -39,5 +57,10 @@ export const BestSellerImgStyle = styled.div`
     width: 100%;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px gray;
+  }
+
+  @media (max-width: 400px) {
+    height: fit-content;
+    width: 100%;
   }
 `;

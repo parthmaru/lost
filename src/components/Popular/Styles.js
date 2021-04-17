@@ -14,6 +14,13 @@ export const PopularContainerStyle = styled.div`
   p {
     background-color: white;
   }
+
+  @media (max-width: 400px) {
+    height: 15rem;
+    width: 6rem;
+    padding: 1rem;
+    justify-content: flex-end;
+  }
 `;
 
 export const PopularImgStyle = styled.div`
@@ -24,6 +31,13 @@ export const PopularImgStyle = styled.div`
   img {
     width: 100%;
     height: 100%;
+  }
+
+  @media (max-width: 400px) {
+    /* height: 20vh;
+    width: 25vw; */
+    width: fit-content;
+    height: fit-content;
   }
 `;
 

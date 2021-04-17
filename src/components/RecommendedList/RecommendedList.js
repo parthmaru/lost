@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import React, { Component } from "react";
+import React, { useState } from "react";
 import ScrollMenu from "react-horizontal-scrolling-menu";
 import { recommended } from "../../constants/recommended";
 import Recommended from "../Recommended/Recommended";
@@ -34,38 +34,36 @@ const Arrow = (text) => {
 const ArrowLeft = Arrow("<");
 const ArrowRight = Arrow(">");
 
-class RecommendedList extends Component {
-  state = {
-    selected: 0,
+const RecommendedList = () => {
+  const [selected, setSelected] = useState(0);
+  const onSelect = (key) => {
+    setSelected(key);
   };
 
-  onSelect = (key) => {
-    this.setState({ selected: key });
-  };
+  const menu = Menu(recommended, selected);
 
-  render() {
-    const { selected } = this.state;
-    const menu = Menu(recommended, selected);
-
-    return (
-      <>
-        <RecommendedListTitleStyle>
-          <h1>Most Recommended product from lost</h1>
-          <Button size="large" color="primary" variant="contained">
-            View All
-          </Button>
-        </RecommendedListTitleStyle>
-        {/* <hr /> */}
-        <ScrollMenu
-          data={menu}
-          arrowLeft={ArrowLeft}
-          arrowRight={ArrowRight}
-          selected={selected}
-          onSelect={this.onSelect}
-        />
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <RecommendedListTitleStyle>
+        <h1>Most Recommended</h1>
+        <Button
+          size="large"
+          color="primary"
+          variant="contained"
+          className="viewAllButton"
+        >
+          View All
+        </Button>
+      </RecommendedListTitleStyle>
+      <ScrollMenu
+        data={menu}
+        arrowLeft={ArrowLeft}
+        arrowRight={ArrowRight}
+        selected={selected}
+        onSelect={onSelect}
+      />
+    </>
+  );
+};
 
 export default RecommendedList;

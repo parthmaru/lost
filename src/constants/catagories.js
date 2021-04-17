@@ -51,7 +51,7 @@ export const catagories = [
   },
   {
     id: 9,
-    name: "Books & More",
+    name: "More",
     image: books,
   },
 ];
