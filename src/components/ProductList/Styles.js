@@ -25,12 +25,31 @@ export const ProductListStyles = styled.div`
     font-weight: bold;
     cursor: pointer;
   }
+
+  @media (max-width: 400px) {
+    margin: 16vh 0 0 0.7rem;
+    /* align-items: flex-start; */
+    > .btnFilters {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      button {
+        display: flex;
+        padding: 0.3rem 0;
+      }
+    }
+  }
 `;
 
 export const ProductCatagoryStyle = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ProductListButtonStyle = styled.div`

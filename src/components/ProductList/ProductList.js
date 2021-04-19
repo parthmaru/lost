@@ -59,7 +59,7 @@ const ProductList = () => {
             <option value="women clothing">Women Clothing</option>
           </select>
         </div>
-        <div>
+        <div className="btnFilters">
           <button>
             Filter
             <i className="fas fa-filter" style={{ marginLeft: "7px" }}></i>

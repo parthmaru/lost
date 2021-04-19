@@ -19,8 +19,6 @@ export const Wrapper = styled.div`
   }
 
   .buttons {
-    /* background-color: #262626; */
-    /* color: white; */
     border-radius: 5px;
   }
 
@@ -29,5 +27,15 @@ export const Wrapper = styled.div`
     object-fit: contain;
     margin-left: 80px;
     margin-right: 40px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 0.9rem;
+
+    padding-left: 1rem;
+    img {
+      margin: 1rem;
+      padding: 0.5rem;
+    }
   }
 `;

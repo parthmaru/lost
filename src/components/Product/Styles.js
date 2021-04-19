@@ -27,6 +27,11 @@ export const ProductContainerStyle = styled.div`
   /* h4 {
     margin: 0;
   } */
+
+  @media (max-width: 400px) {
+    width: 90%;
+    margin: 0.5rem 2rem 0 2rem;
+  }
 `;
 
 export const ProductPriceStyle = styled.div`

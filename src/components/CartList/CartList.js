@@ -25,7 +25,7 @@ const CartList = ({ cartItems, addToCart, removeFromCart, handleDrawer }) => {
       )}
       <CartTotalOrderStyle>
         <h2>Total: ₹{calculateTotal(cartItems).toFixed(2)}</h2>
-        <Link to="/order">
+        <Link to="/order" style={{ textDecoration: "none" }}>
           <Button
             size="large"
             color="primary"
