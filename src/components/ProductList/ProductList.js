@@ -9,7 +9,6 @@ import {
 import Product from "../Product/Product";
 import { testData } from "../../constants/testData";
 import { CircularProgress } from "@material-ui/core";
-// import { ProductPriceStyle } from "../Product/Styles";
 
 const ProductList = () => {
   const [selectedCatagory, setSelectedCatagory] = useState("");

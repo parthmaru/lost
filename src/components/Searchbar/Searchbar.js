@@ -5,7 +5,7 @@ const Searchbar = () => {
   return (
     <SearchInputStyle>
       <input
-        type="text"
+        type="search"
         name="searchbar"
         placeholder="Search Here..."
         style={{
