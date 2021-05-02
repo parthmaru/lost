@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   TableContainer,
   Table,
@@ -14,7 +14,11 @@ import { useSelector } from "react-redux";
 
 function LiveOrders() {
   const { products } = useSelector((state) => state.cartReducer);
-  const [liveorderdata, setLiveorderdata] = useState(products);
+  const [liveorderdata, setLiveorderdata] = useState([]);
+
+  useEffect(() => {
+    setLiveorderdata(products);
+  }, [products]);
   // console.log(products);
   //   useEffect(() => {
   //     const interval = setInterval(() => {

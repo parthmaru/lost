@@ -19,7 +19,7 @@ function StatCards() {
           </div>
         </div>
         <div className="statcard monthly">
-          <h3 className="statcard_title">This Month's Order</h3>
+          <h3 className="statcard_title">Monthly Order</h3>
           <img src={monthly} alt="monthly" className="statcard_img" />
           <div className="statcard_body">
             <h1>120</h1>
